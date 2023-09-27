@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gradient Background</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body id="gradient">
+        <h1>Background Generator</h1>
+        <h2>Current CSS Background</h2>
+        <ul>
+            <li><input type="radio" name="grad-type" value="linear"><label>Linear Gradient</label></li>
+            <li><input type="radio" name="grad-type" value="radial"><label>Radial Gradient</label></li>
+        </ul>
+        <div id="inputs">
+            <input class="color1" type="color" name="color1" value="#00FF00">
+            <input class="color2" type="color" name="color2" value="#FF0000">
+        </div>
+        <br>
+        <button id="random">Randomize</button>
+        <button id="add-color">Add Color</button>
+        <button id="remove-color">Remove Color</button>
+        <h3></h3>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
